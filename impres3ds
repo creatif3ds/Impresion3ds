@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CREATIF 3DS - Impresión 3D Profesional</title>
+    <title>GANIA 3DS - Impresión 3D Profesional</title>
     <style>
         * {
             margin: 0;
@@ -650,7 +650,7 @@
     <!-- Navegación -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
-            <div class="logo">IMPRES 3DS</div>
+            <div class="logo">GANIA 3DS</div>
             <div class="menu-toggle" id="menuToggle">
                 <span></span>
                 <span></span>
@@ -687,7 +687,7 @@
         <section class="section" id="servicios">
             <div class="section-header">
                 <span class="section-label">Nuestras Ventajas</span>
-                <h2 class="section-title">¿Por Qué Elegir IMPRES 3DS?</h2>
+                <h2 class="section-title">¿Por Qué Elegir GANIA 3DS?</h2>
                 <p class="section-description">Combinamos tecnología avanzada, materiales premium y un enfoque centrado en el cliente para entregar resultados excepcionales</p>
             </div>
             <div class="features-grid">
@@ -903,16 +903,16 @@
     <!-- Footer -->
     <footer>
         <div class="footer-content">
-            <div class="footer-logo">IMPRES 3DS</div>
+            <div class="footer-logo">GANIA 3DS</div>
             <p class="footer-tagline">Impresión 3D de Calidad Profesional</p>
             
             <div class="footer-contact">
-                <p><strong>📧 Contacto:</strong> @IMPRES_3DS EN INSTAGRAM </p>
+                <p><strong>📧 Contacto:</strong> @GANIA_3DS EN INSTAGRAM </p>
                 <p><strong>📍 Ubicación:</strong> Ciudad Madero, Tamaulipas, México</p>
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2026 IMPRES 3DS. Todos los derechos reservados.</p>
+                <p>&copy; 2026 GANIA 3DS. Todos los derechos reservados.</p>
                 <p>Transformando ideas en realidad, una capa a la vez.</p>
             </div>
         </div>
@@ -996,14 +996,6 @@
             el.style.transform = 'translateY(30px)';
             el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
             observer.observe(el);
-        });
-
-        // Add stagger effect to grid items
-        document.querySelectorAll('.features-grid, .filament-grid, .process-grid').forEach(grid => {
-            const items = grid.querySelectorAll('.feature-card, .filament-card, .process-step');
-            items.forEach((item, index) => {
-                item.style.transitionDelay = `${index * 0.1}s`;
-            });
         });
     </script>
 </body>
